@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="order(failed)">
+    <classes>
+      <class name="com.TestNG_MultipleTest.TestDatabase">
+        <methods>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- com.TestNG_MultipleTest.TestDatabase -->
+      <class name="com.TestNG_MultipleTest.TestConfig">
+        <methods>
+          <include name="testAfterTest"/>
+          <include name="testAfterTest"/>
+          <include name="testAfterSuite"/>
+          <include name="testBeforeSuite"/>
+          <include name="testBeforeTest"/>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- com.TestNG_MultipleTest.TestConfig -->
+      <class name="com.TestNG_MultipleTest.TestOrder">
+        <methods>
+          <include name="testBeforeTest"/>
+          <include name="testMakeOrder"/>
+        </methods>
+      </class> <!-- com.TestNG_MultipleTest.TestOrder -->
+    </classes>
+  </test> <!-- order(failed) -->
+  <test name="database(failed)">
+    <classes>
+      <class name="com.TestNG_MultipleTest.TestDatabase">
+        <methods>
+          <include name="testShowOrder"/>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- com.TestNG_MultipleTest.TestDatabase -->
+      <class name="com.TestNG_MultipleTest.TestConfig">
+        <methods>
+          <include name="testAfterTest"/>
+          <include name="testAfterTest"/>
+          <include name="testAfterSuite"/>
+          <include name="testBeforeSuite"/>
+          <include name="testBeforeTest"/>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- com.TestNG_MultipleTest.TestConfig -->
+      <class name="com.TestNG_MultipleTest.TestOrder">
+        <methods>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- com.TestNG_MultipleTest.TestOrder -->
+    </classes>
+  </test> <!-- database(failed) -->
+</suite> <!-- Failed suite [Suite] -->

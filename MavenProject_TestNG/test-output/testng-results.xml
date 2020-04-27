@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17305" started-at="2020-04-20T14:20:02Z" finished-at="2020-04-20T14:20:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17305" started-at="2020-04-20T14:20:02Z" finished-at="2020-04-20T14:20:19Z">
+      <class name="com.ExtentReport.ExtentReportDemo">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.ExtentReport.ExtentReportDemo@369f73a2]" name="BeforeSuite" is-config="true" duration-ms="473" started-at="2020-04-20T20:20:01Z" finished-at="2020-04-20T20:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.ExtentReport.ExtentReportDemo@369f73a2]" name="beforeMethod" is-config="true" duration-ms="9035" started-at="2020-04-20T20:20:02Z" finished-at="2020-04-20T20:20:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExtentReport.ExtentReportDemo.extentReportsDemo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="extentReportsDemo()[pri:0, instance:com.ExtentReport.ExtentReportDemo@369f73a2]" name="extentReportsDemo" duration-ms="8235" started-at="2020-04-20T20:20:11Z" finished-at="2020-04-20T20:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportsDemo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ExtentReport.ExtentReportDemo@369f73a2]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-04-20T20:20:19Z" finished-at="2020-04-20T20:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ExtentReport.ExtentReportDemo@369f73a2]" name="afterSuite" is-config="true" duration-ms="457" started-at="2020-04-20T20:20:19Z" finished-at="2020-04-20T20:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ExtentReport.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
